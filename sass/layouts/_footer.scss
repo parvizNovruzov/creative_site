@@ -1,0 +1,123 @@
+footer {
+    padding: 8rem 0 19rem;
+
+    .container {
+
+        .footer {
+            display: flex;
+            gap: 3rem;
+
+            &__left {
+                width: 50%;
+
+
+                &__follow-us {
+                    
+
+                    ul {
+                        display: flex;
+                        gap: 3.7rem;
+                        margin-bottom: 4rem;
+                        margin-top: .8rem;
+
+                        .follow-us__item {
+                            width: 4rem;
+                            height: 4rem;
+                            border-radius: 1000px;
+                            
+
+                            a {
+                                display: flex;
+
+                            }
+                        }
+
+                    }
+                }
+
+                &__info {
+
+                    ul {
+                        margin-top: 1.6rem;
+                        display: flex;
+                        justify-content: space-between;
+                        gap: 3rem;
+
+                        div {
+                            display: flex;
+                            flex-direction: column;
+                            gap: 1.6rem; 
+                            width: 33.3%;
+
+                            .footer__left__info__item {
+
+                                a {
+                                    font-weight: 400;
+                                    font-size: 1.4rem;
+                                    line-height: 2.4rem;
+                                    letter-spacing: 0.25px;
+                                    color: $logo_name;
+                                }
+                                
+                                
+                            }
+                        }
+
+                        
+                    }
+                }
+            }
+
+            &__right {
+                width: 50%;
+
+                &__follow-us {
+                    margin-bottom: 4.8rem;
+
+                    p {
+                        font-weight: 700;
+                        font-size: 3.2rem;
+                        line-height: 4.8rem;
+                        letter-spacing: -0.5px;
+                        color: $purple;
+
+                    }
+                }
+
+                &__keep-in-touch {
+
+                    h4 {
+                        margin-bottom: 1.6rem;
+                    }
+
+                    .keep-in-touch__top {
+                        display: flex;
+                        gap: 3rem;
+                        justify-content: space-between;
+                        
+
+                        .form-group {
+                            
+
+                            .form-control {
+                                // width: 100%;
+                                font-weight: 400;
+                                font-size: 1.8rem;
+                                line-height: 3.2rem;
+                                color: $logo_name;
+                                padding: .8rem 1.6rem; 
+                                background: rgba($color: $bg_gray, $alpha: 0.24);
+                                border-radius: 16px;
+
+                                
+                            }
+
+                        }
+
+                    }
+
+                }
+            }
+        }
+    }
+}

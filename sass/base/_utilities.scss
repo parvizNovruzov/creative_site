@@ -1,0 +1,38 @@
+.container {
+    max-width: 117rem;
+    margin: 0 auto;
+}
+
+.check-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3.2rem;
+    height: 3.2rem;
+    border-radius: 999px;
+    z-index: 10;
+}
+
+.check-icon--gray {
+    background: #C2C2C2;
+    opacity: 0.48;
+}
+
+.check-icon--yellow {
+    background: #FDCB6E;
+    border-radius: 999px;
+}
+
+.check-icon--cyan {
+    background: #55EFC4;
+    opacity: 0.48;
+}
+
+.footer-heading {
+    font-weight: 800;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color: $light_gray;
+}

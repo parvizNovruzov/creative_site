@@ -1,0 +1,41 @@
+.header {
+    filter: drop-shadow(0px 2px 4px rgba(38, 50, 56, 0.16)) drop-shadow(0px 4px 8px rgba(38, 50, 56, 0.08));
+    background-color: white;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1.6rem 0;
+        
+
+        .header__logo {
+            display: flex;
+            align-items: center;
+            padding: 0 1.75rem;
+    
+            .logo-img {
+                width: 7rem;
+                height: 6.4rem; 
+                background-image: url(../img/logo-icon.svg);
+                
+            }
+    
+            .logo-name {
+                font-weight: 700;
+                font-size: 4.8rem;
+                line-height: 5.6rem;
+                letter-spacing: -1px;
+                color: $logo_name;
+            }
+        }
+
+    }
+    
+
+   
+}

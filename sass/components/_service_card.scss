@@ -1,0 +1,39 @@
+.service-card {
+    width: 25%;
+
+    &__img {
+        border-radius: 999px;
+        width: 7rem;
+        height: 7rem;
+        background-position: bottom;
+        margin-bottom: 2.4rem;
+    }
+
+    &__name {
+        font-weight: 700;
+        font-size: 2.4rem;
+        line-height: 3.6rem;
+        letter-spacing: 0.25px;
+        color: $logo_name;
+        margin-bottom: 1.6rem;
+    }
+
+    &__paragraph {
+        font-weight: 400;
+        font-size: 1.8rem;
+        line-height: 3.2rem;
+        color: $logo_name;
+        margin-bottom: .8rem;
+    }
+
+    &__btn {
+
+        button {
+            border: 1px solid #ADADAD;
+            border-radius: 1.6rem;
+            background-color: transparent;
+        }
+            
+        
+    }
+}

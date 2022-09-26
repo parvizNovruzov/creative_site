@@ -1,0 +1,56 @@
+.btn {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+
+}
+
+.btn--login {
+    font-size: 2.4rem;
+    line-height: 3.6rem;
+    letter-spacing: 0.25px;
+    color: #FFFFFF; 
+    text-shadow: 0px 2px 4px rgba(38, 50, 56, 0.16), 0px 4px 8px rgba(38, 50, 56, 0.08);
+    padding: 1.4rem 4.4rem;
+    background-color: $purple;
+    border-radius: 100rem;
+}
+
+.btn--more {
+    font-size: 3.2rem;
+    line-height: 4.8rem;
+    letter-spacing: -0.5px;
+    color: #FFFFFF;
+    padding: 1.7rem 1.6rem;
+    border-radius: 100rem;
+    background-color: $purple;
+    width:100%;
+}
+
+.btn--service {
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 3.2rem;
+    letter-spacing: 0.2px;
+    color: $purple;
+    padding: .7rem 2.2rem;
+}
+
+.btn--price {
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 3.2rem;
+    letter-spacing: 0.2px;
+    color: $purple;
+    border: 1px solid #ADADAD;
+    border-radius: 16px;
+    width: 100%;
+    background-color: transparent;
+    padding: 1.5rem 0;
+}
+
+.btn--price--purple {
+    background-color: $purple!important;
+    color: #FFFFFF!important;
+    border: transparent;
+}

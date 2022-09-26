@@ -1,0 +1,102 @@
+.pricing-card {
+    display: flex;
+    flex-direction: column;
+    padding: 3.2rem;
+
+    &--individual {
+        
+        position: relative;
+        border-radius: 1.6rem;
+        background-color: #ffffff;
+        filter: drop-shadow(0px 8px 8px rgba(38, 50, 56, 0.12)) 
+                drop-shadow(0px 16px 24px rgba(38, 50, 56, 0.08));
+        z-index: 1000;
+         
+
+        .wiggle {
+            
+            content: '';
+            width: 20rem;
+            height: 12.6rem;
+            position: absolute;
+            bottom: -3rem;
+            left: -3rem;
+            background-image: url('../img/wiggle.svg');
+            background-repeat: no-repeat;
+            z-index: -1;
+
+        }
+    }
+    
+
+    .pricing-card__name {
+        margin-bottom: 1.6rem;
+
+        h4 {
+            font-weight: 700;
+            font-size: 1.8rem;
+            line-height: 3.2rem;
+            letter-spacing: 0.2px;
+            color: $purple;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            span {
+                font-weight: 800;
+                font-size: 1.2rem;
+                line-height: 1.5rem;
+                letter-spacing: 2.5px;
+                padding: .8rem 2rem;
+                text-transform: uppercase;
+                color: $logo_name;
+                border: 1px solid $purple;
+                border-radius: 99px;
+            }
+
+        }
+    }
+
+    .pricing-card__price {
+        margin-bottom: 2.4rem;
+
+        p {
+            font-weight: 700;
+            font-size: 4.8rem;
+            line-height: 5.6rem;
+            letter-spacing: -1px;
+            color: $logo_name;
+
+            span {
+                font-weight: 800;
+                font-size: 1.2rem;
+                line-height: 1.5rem;
+                letter-spacing: 2.5px;
+                text-transform: uppercase;
+            }
+        }
+    }
+
+    .pricing-card__services {
+        margin-bottom: 1.6rem;
+        display: flex;
+        flex-direction: column;
+        gap: 1.6rem;
+        flex-grow: 1;
+
+        &__item {
+            display: flex;
+            gap: 1.6rem;
+            font-weight: 400;
+            font-size: 1.8rem;
+            line-height: 3.2rem;
+            color: $logo_name;
+        }
+    }
+
+    .pricing-card__btn {
+
+    }
+
+
+}

@@ -1,0 +1,35 @@
+.nav {
+    display: flex;
+    justify-content: space-around;
+    
+
+    &__item {
+
+        display: flex;
+        align-items: center;
+
+        &::after {
+            content:'';
+            background-color: $dot_color;
+            display: inline-block;
+            width: .7rem;
+            height: .7rem;
+            margin: 0 .1rem;
+            border-radius: 50%;
+
+            
+        }
+
+        &:last-child::after {
+            display: none;
+        }
+
+        &__link {
+            font-weight: 400;
+            font-size: 1.8rem;
+            line-height: 3.2rem;
+            color: $purple;
+            padding: .8rem 2.1rem;
+        }
+    }
+}

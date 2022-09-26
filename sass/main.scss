@@ -1,0 +1,19 @@
+@import "abstracts/variables";
+
+@import "base/reset";
+@import "base/utilities";
+
+@import "components/nav";
+@import "components/buttons";
+@import "components/combine_images";
+@import "components/heading";
+@import "components/combine_paragraph";
+@import "components/service";
+@import "components/service_card";
+@import 'components/icon';
+@import 'components/pricing';
+@import 'components/pricing_card';
+
+
+@import "layouts/header";
+@import "layouts/footer";
